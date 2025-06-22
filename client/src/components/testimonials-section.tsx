@@ -7,7 +7,7 @@ const testimonials = [
     role: "CEO, HealthTech Startup",
     initials: "JD",
     color: "bg-primary",
-    testimonial: "Theosaas delivered our telehealth platform in exactly 6 weeks as promised. The combination of Toronto oversight and Nigerian talent gave us enterprise-quality development at a fraction of the cost. We've raised $2M since launch."
+    testimonial: "Theosaas delivered our AI-powered telehealth platform with incredible speed. The combination of Toronto oversight and global talent gave us enterprise-quality development with cutting-edge AI features. We've raised $2M since launch."
   },
   {
     name: "Marcus Rodriguez",
@@ -21,7 +21,7 @@ const testimonials = [
     role: "Co-founder, EdTech Platform",
     initials: "SK",
     color: "bg-accent",
-    testimonial: "Impressed by the speed and quality. Our learning management system went from concept to 10,000 active users in just 3 months. The 60% cost savings allowed us to invest more in marketing and growth."
+    testimonial: "Impressed by the speed and quality. Our AI-enhanced learning management system went from concept to 10,000 active users in just 3 months. The intelligent features and personalized learning paths have been game-changers for user engagement."
   }
 ];
 

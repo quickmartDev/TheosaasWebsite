@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const processSteps = [
   {
-    weeks: "1-2",
+    weeks: "1",
     title: "Discovery & Planning",
     description: "Deep dive into your vision, market analysis, and technical architecture planning. We define the MVP scope and create detailed specifications.",
     phases: [
@@ -22,7 +22,7 @@ const processSteps = [
     color: "bg-primary"
   },
   {
-    weeks: "3-4",
+    weeks: "2",
     title: "Design & Development",
     description: "Parallel design and development workflow. UI/UX creation alongside backend development ensures rapid progress without compromising quality.",
     phases: [
@@ -42,7 +42,7 @@ const processSteps = [
     color: "bg-secondary"
   },
   {
-    weeks: "5-6",
+    weeks: "3",
     title: "Testing & Launch",
     description: "Rigorous testing, deployment, and launch preparation. We ensure your MVP is production-ready with monitoring and analytics in place.",
     phases: [
@@ -74,9 +74,9 @@ export default function ProcessSection() {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl font-bold text-neutral-900 mb-4">Our 6-Week MVP Process</h2>
+          <h2 className="text-4xl font-bold text-neutral-900 mb-4">Our Lean MVP Process</h2>
           <p className="text-xl text-neutral-600 max-w-3xl mx-auto">
-            A proven methodology that takes you from concept to launch in just 6 weeks, with clear milestones and regular communication.
+            Working as your dedicated technical team, we deliver through continuous iterations—shipping working software early and often while gathering feedback to refine your product.
           </p>
         </motion.div>
 

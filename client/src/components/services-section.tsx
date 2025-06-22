@@ -1,11 +1,11 @@
 import { motion } from "framer-motion";
-import { UserCheck, Code, Palette, Rocket, Cloud, TrendingUp } from "lucide-react";
+import { UserCheck, Code, Palette, Rocket, Cloud, TrendingUp, Brain } from "lucide-react";
 
 const services = [
   {
     icon: UserCheck,
     title: "Fractional CTO Leadership",
-    description: "Strategic technical guidance without the full-time cost. Our CTOs provide architecture decisions, technology stack selection, and development roadmaps.",
+    description: "Strategic technical guidance from experienced leaders. Our CTOs provide architecture decisions, technology stack selection, and development roadmaps.",
     features: [
       "Technology strategy & roadmap",
       "Architecture & scalability planning",
@@ -14,15 +14,26 @@ const services = [
     color: "bg-primary"
   },
   {
-    icon: Code,
-    title: "Full-Stack Engineering",
-    description: "Complete development capabilities from frontend to backend, databases, and integrations. Modern tech stack with scalable architecture.",
+    icon: Brain,
+    title: "AI Integration",
+    description: "Leverage cutting-edge AI capabilities to enhance your product. From chatbots to predictive analytics, we integrate AI solutions that drive real business value.",
     features: [
-      "React, Node.js, Python development",
-      "Database design & optimization",
-      "API development & integrations"
+      "LLM integration (GPT, Claude)",
+      "Custom AI model development",
+      "Intelligent automation workflows"
     ],
     color: "bg-secondary"
+  },
+  {
+    icon: Rocket,
+    title: "MVP & Full-Stack Development",
+    description: "Your dedicated technical team delivering through lean, iterative releases. We ship working software continuously, gathering feedback and evolving your product with each sprint.",
+    features: [
+      "React, Node.js, Python development",
+      "Rapid prototyping & feature prioritization",
+      "Database design & API integrations"
+    ],
+    color: "bg-accent"
   },
   {
     icon: Palette,
@@ -32,17 +43,6 @@ const services = [
       "User research & personas",
       "Wireframing & prototyping",
       "Responsive design systems"
-    ],
-    color: "bg-accent"
-  },
-  {
-    icon: Rocket,
-    title: "MVP Development",
-    description: "Rapid prototyping to validate your concept. We build lean, functional MVPs that help you test market fit and attract early users.",
-    features: [
-      "Feature prioritization",
-      "Rapid prototyping",
-      "User testing & feedback"
     ],
     color: "bg-primary"
   },

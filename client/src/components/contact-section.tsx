@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { Clock, DollarSign, MapPin, ArrowRight } from "lucide-react";
+import { Clock, Brain, MapPin, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -14,20 +14,20 @@ import type { InsertContactInquiry } from "@shared/schema";
 const features = [
   {
     icon: Clock,
-    title: "6-Week Delivery",
-    description: "From concept to production-ready MVP",
+    title: "Lean Iterations",
+    description: "Ship working software continuously",
     color: "bg-primary"
   },
   {
-    icon: DollarSign,
-    title: "60% Cost Savings",
-    description: "Premium quality at fraction of traditional cost",
+    icon: Brain,
+    title: "AI-Powered Solutions",
+    description: "Integrate cutting-edge AI capabilities",
     color: "bg-accent"
   },
   {
     icon: MapPin,
-    title: "Toronto-Based",
-    description: "Local partnership with global expertise",
+    title: "Dedicated Team",
+    description: "Work with us like your own tech team",
     color: "bg-secondary"
   }
 ];
@@ -102,7 +102,7 @@ export default function ContactSection() {
             <div>
               <h2 className="text-4xl font-bold mb-4">Ready to Build Your MVP?</h2>
               <p className="text-xl text-gray-300 mb-8">
-                Get your SaaS product to market in 6 weeks with 60% cost savings. Let's discuss your project and create a custom roadmap.
+                Get your AI-powered SaaS product to market as fast as possible. Let's discuss your project and create a custom roadmap with intelligent features that set you apart.
               </p>
             </div>
 

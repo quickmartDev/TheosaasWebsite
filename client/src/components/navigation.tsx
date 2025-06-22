@@ -18,8 +18,11 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0">
-              <h1 className="text-2xl font-bold text-primary">Theosaas</h1>
-              <p className="text-xs text-neutral-500 -mt-1">CONSULTING</p>
+              <img 
+                src="/theosaas.png" 
+                alt="Theosaas Consulting" 
+                className="h-40 w-auto"
+              />
             </div>
           </div>
           

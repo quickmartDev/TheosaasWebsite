@@ -16,14 +16,14 @@ const torontoFeatures = [
   }
 ];
 
-const nigerianFeatures = [
+const globalFeatures = [
   {
     title: "Top 1% Talent",
     description: "Rigorous screening process ensures only the best developers"
   },
   {
-    title: "Cost Efficiency",
-    description: "Premium quality at 60% lower cost than North American rates"
+    title: "AI & ML Expertise",
+    description: "Specialized skills in LLMs, machine learning, and AI integration"
   },
   {
     title: "Modern Stack Expertise",
@@ -44,7 +44,7 @@ export default function TeamSection() {
         >
           <h2 className="text-4xl font-bold text-neutral-900 mb-4">Meet Our Expert Team</h2>
           <p className="text-xl text-neutral-600 max-w-3xl mx-auto">
-            Toronto leadership combined with world-class Nigerian engineering talent creates the perfect balance of strategic oversight and technical excellence.
+            We work as your dedicated technical team, delivering through lean iterations. Toronto leadership combined with global engineering talent ensures continuous value delivery with each sprint.
           </p>
         </motion.div>
 
@@ -100,7 +100,7 @@ export default function TeamSection() {
           >
             <img
               src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600"
-              alt="Skilled Nigerian developers working on modern tech projects"
+              alt="Skilled developers working on modern tech projects"
               className="rounded-2xl shadow-lg w-full h-auto"
             />
           </motion.div>
@@ -112,12 +112,12 @@ export default function TeamSection() {
             className="lg:order-1 space-y-8"
           >
             <div>
-              <h3 className="text-2xl font-bold text-neutral-900 mb-4">Nigerian Engineering Excellence</h3>
+              <h3 className="text-2xl font-bold text-neutral-900 mb-4">Global Engineering Excellence</h3>
               <p className="text-neutral-600 mb-6">
-                Nigeria's tech talent pool is among the most skilled and cost-effective globally. Our carefully vetted engineering team delivers enterprise-grade solutions with remarkable efficiency.
+                Our global tech talent pool is among the most skilled and innovative. Our carefully vetted engineering team delivers enterprise-grade solutions with AI-powered capabilities and remarkable efficiency.
               </p>
               <div className="space-y-4">
-                {nigerianFeatures.map((feature) => (
+                {globalFeatures.map((feature) => (
                   <div key={feature.title} className="flex items-start space-x-4">
                     <div className="w-8 h-8 bg-accent rounded-full flex items-center justify-center flex-shrink-0">
                       <Check className="text-white w-4 h-4" />

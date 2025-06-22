@@ -29,7 +29,7 @@ export default function HeroSection() {
                 <span className="text-primary">Revenue-Ready</span> SaaS Products
               </h1>
               <p className="text-xl text-neutral-600 leading-relaxed">
-                Our fractional-CTO leadership, full-stack engineering squad, and UI/UX design team—leveraging a cost-efficient Nigerian talent network—ship production-ready MVPs in six weeks while slashing build costs by up to 60%.
+                Our fractional-CTO leadership, AI integration experts, and full-stack engineering squad work as your dedicated technical team. We deliver production-ready MVPs through lean, iterative releases—shipping value continuously while building towards your vision.
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4">
@@ -49,16 +49,16 @@ export default function HeroSection() {
             </div>
             <div className="flex items-center space-x-8 pt-4">
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary">6</div>
-                <div className="text-sm text-neutral-500">Weeks to MVP</div>
+                <div className="text-3xl font-bold text-primary">Fast</div>
+                <div className="text-sm text-neutral-500">Time to Market</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-accent">60%</div>
-                <div className="text-sm text-neutral-500">Cost Savings</div>
+                <div className="text-3xl font-bold text-accent">98%</div>
+                <div className="text-sm text-neutral-500">Client Satisfaction</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-neutral-700">100+</div>
-                <div className="text-sm text-neutral-500">MVPs Shipped</div>
+                <div className="text-3xl font-bold text-neutral-700">AI</div>
+                <div className="text-sm text-neutral-500">Powered Solutions</div>
               </div>
             </div>
           </motion.div>
@@ -77,7 +77,7 @@ export default function HeroSection() {
               <div className="flex items-center space-x-3">
                 <div className="w-3 h-3 bg-accent rounded-full animate-pulse"></div>
                 <span className="text-sm font-medium text-neutral-700">
-                  MVP Ready in 6 Weeks
+                  MVP Ready Fast
                 </span>
               </div>
             </div>

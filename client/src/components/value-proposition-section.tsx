@@ -2,19 +2,19 @@ import { motion } from "framer-motion";
 
 const values = [
   {
-    number: "60%",
-    title: "Cost Savings",
-    description: "Leverage our Nigerian talent network for world-class development at a fraction of traditional costs."
+    number: "Lean",
+    title: "Iterative Releases",
+    description: "Ship value continuously with rapid iterations, just like having your own dedicated technical team."
   },
   {
-    number: "6",
-    title: "Weeks to MVP",
-    description: "Rapid development cycles that get your product to market faster than traditional agencies."
+    number: "AI",
+    title: "Powered Innovation",
+    description: "Integrate cutting-edge AI capabilities including LLMs, predictive analytics, and intelligent automation."
   },
   {
     number: "24/7",
     title: "Global Coverage",
-    description: "Round-the-clock development with teams across Toronto and Nigeria time zones."
+    description: "Round-the-clock development with teams across multiple time zones ensuring continuous progress."
   }
 ];
 
@@ -31,7 +31,7 @@ export default function ValuePropositionSection() {
         >
           <h2 className="text-4xl font-bold mb-4">Why Founders Choose Theosaas</h2>
           <p className="text-xl text-blue-100 max-w-3xl mx-auto">
-            Our unique approach combines Toronto expertise with global talent, delivering exceptional results at unprecedented speed and cost efficiency.
+            Our unique approach combines Toronto expertise with global talent, delivering AI-enhanced solutions at unprecedented speed and quality.
           </p>
 
           <div className="grid md:grid-cols-3 gap-8 mt-16">
