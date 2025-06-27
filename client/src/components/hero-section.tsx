@@ -29,7 +29,7 @@ export default function HeroSection() {
                 <span className="text-primary">Revenue-Ready</span> SaaS Products
               </h1>
               <p className="text-xl text-neutral-600 leading-relaxed">
-                Our fractional-CTO leadership, AI integration experts, and full-stack engineering squad work as your dedicated technical team. We deliver production-ready MVPs through lean, iterative releases—shipping value continuously while building towards your vision.
+                Our fractional-CTO leadership, AI integration experts, and full-stack engineering squad work as your dedicated technical team. We deliver production-ready MVPs through lean, iterative releases shipping value continuously while building towards your vision.
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4">
@@ -53,7 +53,7 @@ export default function HeroSection() {
                 <div className="text-sm text-neutral-500">Time to Market</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-accent">98%</div>
+                <div className="text-3xl font-bold text-accent">99%</div>
                 <div className="text-sm text-neutral-500">Client Satisfaction</div>
               </div>
               <div className="text-center">
