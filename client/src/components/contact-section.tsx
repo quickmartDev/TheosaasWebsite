@@ -9,7 +9,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { useToast } from "@/hooks/use-toast";
 import { useMutation } from "@tanstack/react-query";
 import { apiRequest } from "@/lib/queryClient";
-import type { InsertContactInquiry } from "@shared/schema";
+import type { InsertContactInquiry } from "@/types/contact";
 
 const features = [
   {
