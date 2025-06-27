@@ -2,6 +2,7 @@ import type { Express } from "express";
 import { createServer, type Server } from "http";
 import { storage } from "./storage";
 import { insertContactInquirySchema } from "@shared/schema";
+import { sendContactEmail, sendContactWebhook } from "./email";
 
 export async function registerRoutes(app: Express): Promise<Server> {
   // Contact form submission
@@ -9,6 +10,18 @@ export async function registerRoutes(app: Express): Promise<Server> {
     try {
       const validatedData = insertContactInquirySchema.parse(req.body);
       const inquiry = await storage.createContactInquiry(validatedData);
+      
+      // Send notifications (email and/or webhook)
+      try {
+        await Promise.all([
+          sendContactEmail(validatedData),
+          sendContactWebhook(validatedData)
+        ]);
+      } catch (notificationError) {
+        console.error('Failed to send notification:', notificationError);
+        // Continue even if notifications fail - don't block the form submission
+      }
+      
       res.json({ success: true, inquiry });
     } catch (error) {
       res.status(400).json({ 

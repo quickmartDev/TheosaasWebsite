@@ -207,6 +207,7 @@ export default function ContactSection() {
                     <SelectValue placeholder="Select budget range" />
                   </SelectTrigger>
                   <SelectContent>
+                    <SelectItem value="25k-50k">$1.5k - $25k CAD</SelectItem>
                     <SelectItem value="25k-50k">$25k - $50k CAD</SelectItem>
                     <SelectItem value="50k-100k">$50k - $100k CAD</SelectItem>
                     <SelectItem value="100k-200k">$100k - $200k CAD</SelectItem>
