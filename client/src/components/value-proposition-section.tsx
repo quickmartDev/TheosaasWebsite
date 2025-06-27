@@ -44,7 +44,7 @@ export default function ValuePropositionSection() {
                 transition={{ duration: 0.8, delay: index * 0.2 }}
                 className="text-center"
               >
-                <div className="text-5xl font-bold text-accent mb-4">{value.number}</div>
+                <div className="text-5xl font-bold text-white mb-4">{value.number}</div>
                 <h3 className="text-xl font-semibold mb-2">{value.title}</h3>
                 <p className="text-blue-100">{value.description}</p>
               </motion.div>
