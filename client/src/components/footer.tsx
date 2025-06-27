@@ -11,9 +11,6 @@ const services = [
 const company = [
   "About Us",
   "Our Process", 
-  "Case Studies",
-  "Blog",
-  "Careers"
 ];
 
 export default function Footer() {
@@ -35,11 +32,7 @@ export default function Footer() {
               </p>
               <p className="flex items-center">
                 <Mail className="w-4 h-4 mr-2" />
-                hello@theosaas.com
-              </p>
-              <p className="flex items-center">
-                <Phone className="w-4 h-4 mr-2" />
-                +1 (647) 555-0123
+                theosaasconsulting@gmail.com
               </p>
             </div>
           </div>
