@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { UserCheck, Code, Palette, Rocket, Cloud, TrendingUp, Brain } from "lucide-react";
+import { UserCheck, Palette, Rocket, Cloud, TrendingUp, Brain } from "lucide-react";
 
 const services = [
   {
